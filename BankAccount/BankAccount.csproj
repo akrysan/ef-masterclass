@@ -54,6 +54,10 @@
     <Compile Include="Migrations\201504061202119_Initial.Designer.cs">
       <DependentUpon>201504061202119_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201504061223151_AddBalanceToAccount.cs" />
+    <Compile Include="Migrations\201504061223151_AddBalanceToAccount.Designer.cs">
+      <DependentUpon>201504061223151_AddBalanceToAccount.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\201504061228314_AddNotesToAccount.cs" />
     <Compile Include="Migrations\201504061228314_AddNotesToAccount.Designer.cs">
       <DependentUpon>201504061228314_AddNotesToAccount.cs</DependentUpon>
@@ -71,6 +75,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201504061202119_Initial.resx">
       <DependentUpon>201504061202119_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504061223151_AddBalanceToAccount.resx">
+      <DependentUpon>201504061223151_AddBalanceToAccount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201504061228314_AddNotesToAccount.resx">
       <DependentUpon>201504061228314_AddNotesToAccount.cs</DependentUpon>
