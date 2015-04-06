@@ -54,6 +54,10 @@
     <Compile Include="Migrations\201504061202119_Initial.Designer.cs">
       <DependentUpon>201504061202119_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201504061228314_AddNotesToAccount.cs" />
+    <Compile Include="Migrations\201504061228314_AddNotesToAccount.Designer.cs">
+      <DependentUpon>201504061228314_AddNotesToAccount.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Account.cs" />
     <Compile Include="Model\AccountContext.cs" />
@@ -67,6 +71,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201504061202119_Initial.resx">
       <DependentUpon>201504061202119_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504061228314_AddNotesToAccount.resx">
+      <DependentUpon>201504061228314_AddNotesToAccount.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
