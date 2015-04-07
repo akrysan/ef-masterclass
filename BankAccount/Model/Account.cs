@@ -11,7 +11,7 @@ namespace BankAccount.Model
         public int Id { get; set; }
         public string Client { get; set; }
         public int Balance { get; set; }
-        public string Notes { get; set; }
+        public string Description { get; set; }
         public int Status { get; set; }
 
 

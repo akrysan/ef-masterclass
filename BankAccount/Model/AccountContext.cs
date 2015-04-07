@@ -16,6 +16,5 @@ namespace BankAccount.Model
         }
 
         public virtual DbSet<Account> Accounts { get; set; }
-
     }
 }
