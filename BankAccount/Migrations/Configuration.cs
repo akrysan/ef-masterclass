@@ -9,7 +9,7 @@ namespace BankAccount.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(BankAccount.Model.AccountContext context)

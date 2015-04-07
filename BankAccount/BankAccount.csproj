@@ -78,6 +78,10 @@
     <Compile Include="Migrations\201504071247372_FixRenameNotesToDescription.Designer.cs">
       <DependentUpon>201504071247372_FixRenameNotesToDescription.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201504071313408_ChangeCreditLimitType.cs" />
+    <Compile Include="Migrations\201504071313408_ChangeCreditLimitType.Designer.cs">
+      <DependentUpon>201504071313408_ChangeCreditLimitType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Account.cs" />
     <Compile Include="Model\AccountContext.cs" />
@@ -109,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201504071247372_FixRenameNotesToDescription.resx">
       <DependentUpon>201504071247372_FixRenameNotesToDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504071313408_ChangeCreditLimitType.resx">
+      <DependentUpon>201504071313408_ChangeCreditLimitType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
