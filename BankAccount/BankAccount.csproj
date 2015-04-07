@@ -66,9 +66,17 @@
     <Compile Include="Migrations\201504071204249_AddClient.Designer.cs">
       <DependentUpon>201504071204249_AddClient.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201504071233095_RenameNotesToDescription.cs" />
+    <Compile Include="Migrations\201504071233095_RenameNotesToDescription.Designer.cs">
+      <DependentUpon>201504071233095_RenameNotesToDescription.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\201504071240227_AddStatus.cs" />
     <Compile Include="Migrations\201504071240227_AddStatus.Designer.cs">
       <DependentUpon>201504071240227_AddStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201504071247372_FixRenameNotesToDescription.cs" />
+    <Compile Include="Migrations\201504071247372_FixRenameNotesToDescription.Designer.cs">
+      <DependentUpon>201504071247372_FixRenameNotesToDescription.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Account.cs" />
@@ -93,8 +101,14 @@
     <EmbeddedResource Include="Migrations\201504071204249_AddClient.resx">
       <DependentUpon>201504071204249_AddClient.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504071233095_RenameNotesToDescription.resx">
+      <DependentUpon>201504071233095_RenameNotesToDescription.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201504071240227_AddStatus.resx">
       <DependentUpon>201504071240227_AddStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504071247372_FixRenameNotesToDescription.resx">
+      <DependentUpon>201504071247372_FixRenameNotesToDescription.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

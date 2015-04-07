@@ -15,9 +15,9 @@ namespace BankAccount
             using (var context = new AccountContext())
             {
 
-                context.Accounts.Add(new Account() {Client = "Toyota"});
-                context.Accounts.Add(new Account() { Client = "Subaru" });
-                context.SaveChanges();
+                //context.Accounts.Add(new Account() {Client = "Toyota"});
+                //context.Accounts.Add(new Account() { Client = "Subaru" });
+                //context.SaveChanges();
 
                 var accounts = context.Accounts;
 
