@@ -16,7 +16,6 @@ namespace BankAccount.Model
         }
 
         public virtual DbSet<Account> Accounts { get; set; }
-        public virtual DbSet<Client> Clients { get; set; }
 
     }
 }
